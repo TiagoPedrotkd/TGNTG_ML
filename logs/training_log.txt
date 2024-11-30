@@ -27,8 +27,3 @@
 2024-11-28 21:33:36,616 - INFO - Macro F1-Score do Fold 8: 0.7822
 2024-11-28 21:33:42,621 - INFO - Macro F1-Score do OOF: 0.7825
 2024-11-28 21:33:44,362 - INFO - Treinamento conclu�do em 191.78 minutos.
-
-2024-11-28 23:07:45,125 - INFO - In�cio do treinamento do meta_model.
-2024-11-28 23:07:46,107 - INFO - Training Fold 1...
-2024-11-28 23:09:50,296 - INFO - In�cio do treinamento do meta_model.
-2024-11-28 23:09:51,041 - INFO - Training Fold 1...
