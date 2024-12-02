@@ -5,7 +5,7 @@ __pycache__/
 
 data/
 
-preds/
+predictions/
 
 # C extensions
 *.so
