@@ -107,3 +107,12 @@ def select_best_features_and_save(models_data, output_path="best_features_result
 
     results_df.to_csv(output_csv_path, index=False)
     print(f"Resultados salvos em: {output_csv_path}")
+
+def analyze_feature_consensus(df, minimum_keep=1):
+    decision_columns = [col for col in df.columns if df[col].isin(["keep", "drop"]).any()]
+
+    df["Keep_Count"] = df[decision_columns].apply(lambda row: sum(row == "keep"), axis=1)
+    
+    df["Final_Decision"] = df["Keep_Count"].apply(lambda x: "keep" if x >= minimum_keep else "drop")
+
+    return df[["Feature", "Keep_Count", "Final_Decision"]]
