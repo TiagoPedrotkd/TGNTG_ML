@@ -1,0 +1,152 @@
+2024-12-04 22:25:17,104 - INFO - Inï¿½cio do treinamento do meta_model com Random Forest.
+2024-12-04 22:25:17,590 - INFO - Training Fold 1...
+2024-12-04 22:26:01,458 - INFO - Relatï¿½rio de mï¿½tricas por classe no Fold 1:
+              precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91     54571
+           1       0.81      0.79      0.80     54571
+           2       0.88      0.70      0.78     54571
+           3       0.85      0.91      0.88     54570
+           4       0.96      1.00      0.98     54571
+           5       0.97      0.98      0.97     54571
+           6       1.00      1.00      1.00     54571
+           7       1.00      1.00      1.00     54570
+
+    accuracy                           0.92    436566
+   macro avg       0.92      0.92      0.91    436566
+weighted avg       0.92      0.92      0.91    436566
+
+2024-12-04 22:26:01,458 - INFO - Macro F1-Score do Fold 1: 0.9149
+2024-12-04 22:26:39,724 - INFO - Training Fold 2...
+2024-12-04 22:27:24,042 - INFO - Relatï¿½rio de mï¿½tricas por classe no Fold 2:
+              precision    recall  f1-score   support
+
+           0       0.86      0.96      0.91     54571
+           1       0.81      0.79      0.80     54570
+           2       0.88      0.69      0.78     54571
+           3       0.85      0.91      0.88     54571
+           4       0.95      1.00      0.98     54571
+           5       0.97      0.98      0.97     54571
+           6       1.00      1.00      1.00     54570
+           7       1.00      1.00      1.00     54571
+
+    accuracy                           0.92    436566
+   macro avg       0.92      0.92      0.91    436566
+weighted avg       0.92      0.92      0.91    436566
+
+2024-12-04 22:27:24,042 - INFO - Macro F1-Score do Fold 2: 0.9138
+2024-12-04 22:28:02,771 - INFO - Training Fold 3...
+2024-12-04 22:28:46,188 - INFO - Relatï¿½rio de mï¿½tricas por classe no Fold 3:
+              precision    recall  f1-score   support
+
+           0       0.86      0.96      0.91     54571
+           1       0.81      0.79      0.80     54571
+           2       0.88      0.70      0.78     54571
+           3       0.86      0.91      0.88     54571
+           4       0.95      1.00      0.97     54570
+           5       0.97      0.98      0.97     54570
+           6       1.00      1.00      1.00     54571
+           7       1.00      1.00      1.00     54571
+
+    accuracy                           0.92    436566
+   macro avg       0.92      0.92      0.91    436566
+weighted avg       0.92      0.92      0.91    436566
+
+2024-12-04 22:28:46,188 - INFO - Macro F1-Score do Fold 3: 0.9148
+2024-12-04 22:29:24,038 - INFO - Training Fold 4...
+2024-12-04 22:30:09,136 - INFO - Relatï¿½rio de mï¿½tricas por classe no Fold 4:
+              precision    recall  f1-score   support
+
+           0       0.86      0.96      0.91     54570
+           1       0.81      0.79      0.80     54571
+           2       0.88      0.70      0.78     54570
+           3       0.85      0.92      0.88     54571
+           4       0.95      1.00      0.97     54571
+           5       0.97      0.97      0.97     54571
+           6       1.00      1.00      1.00     54571
+           7       1.00      1.00      1.00     54571
+
+    accuracy                           0.92    436566
+   macro avg       0.92      0.92      0.91    436566
+weighted avg       0.92      0.92      0.91    436566
+
+2024-12-04 22:30:09,136 - INFO - Macro F1-Score do Fold 4: 0.9144
+2024-12-04 22:30:48,566 - INFO - Macro F1-Score do OOF: 0.9145
+2024-12-04 22:30:49,969 - INFO - Treinamento concluï¿½do em 5.55 minutos.
+
+
+2024-12-04 23:10:20,703 - INFO - Inï¿½cio do treinamento do meta_model com Random Forest.
+2024-12-04 23:10:21,652 - INFO - Training Fold 1...
+2024-12-04 23:11:48,559 - INFO - Relatório de métricas por classe no Fold 1:
+              precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91     54571
+           1       0.81      0.79      0.80     54571
+           2       0.88      0.70      0.78     54571
+           3       0.86      0.92      0.88     54570
+           4       0.96      1.00      0.98     54571
+           5       0.97      0.98      0.97     54571
+           6       1.00      1.00      1.00     54571
+           7       1.00      1.00      1.00     54570
+
+    accuracy                           0.92    436566
+   macro avg       0.92      0.92      0.92    436566
+weighted avg       0.92      0.92      0.92    436566
+
+2024-12-04 23:11:48,559 - INFO - Macro F1-Score do Fold 1: 0.9158
+2024-12-04 23:13:05,862 - INFO - Training Fold 2...
+2024-12-04 23:14:26,741 - INFO - Relatório de métricas por classe no Fold 2:
+              precision    recall  f1-score   support
+
+           0       0.86      0.96      0.91     54571
+           1       0.81      0.79      0.80     54570
+           2       0.88      0.70      0.78     54571
+           3       0.85      0.92      0.88     54571
+           4       0.96      1.00      0.98     54571
+           5       0.97      0.98      0.97     54571
+           6       1.00      1.00      1.00     54570
+           7       1.00      1.00      1.00     54571
+
+    accuracy                           0.92    436566
+   macro avg       0.92      0.92      0.92    436566
+weighted avg       0.92      0.92      0.92    436566
+
+2024-12-04 23:14:26,741 - INFO - Macro F1-Score do Fold 2: 0.9153
+2024-12-04 23:15:45,896 - INFO - Training Fold 3...
+2024-12-04 23:17:06,035 - INFO - Relatório de métricas por classe no Fold 3:
+              precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91     54571
+           1       0.82      0.80      0.81     54571
+           2       0.88      0.70      0.78     54571
+           3       0.86      0.92      0.89     54571
+           4       0.95      1.00      0.98     54570
+           5       0.97      0.98      0.97     54570
+           6       1.00      1.00      1.00     54571
+           7       1.00      1.00      1.00     54571
+
+    accuracy                           0.92    436566
+   macro avg       0.92      0.92      0.92    436566
+weighted avg       0.92      0.92      0.92    436566
+
+2024-12-04 23:17:06,045 - INFO - Macro F1-Score do Fold 3: 0.9160
+2024-12-04 23:18:22,576 - INFO - Training Fold 4...
+2024-12-04 23:19:42,369 - INFO - Relatório de métricas por classe no Fold 4:
+              precision    recall  f1-score   support
+
+           0       0.86      0.96      0.91     54570
+           1       0.81      0.79      0.80     54571
+           2       0.89      0.70      0.78     54570
+           3       0.86      0.92      0.89     54571
+           4       0.96      1.00      0.98     54571
+           5       0.97      0.98      0.97     54571
+           6       1.00      1.00      1.00     54571
+           7       1.00      1.00      1.00     54571
+
+    accuracy                           0.92    436566
+   macro avg       0.92      0.92      0.92    436566
+weighted avg       0.92      0.92      0.92    436566
+
+2024-12-04 23:19:42,370 - INFO - Macro F1-Score do Fold 4: 0.9158
+2024-12-04 23:21:01,946 - INFO - Macro F1-Score do OOF: 0.9157
+2024-12-04 23:21:03,327 - INFO - Treinamento concluído em 10.71 minutos.
