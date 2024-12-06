@@ -309,3 +309,87 @@
 2024-12-04 21:53:24,573 - INFO - Macro F1-Score do Fold 4: 0.8652
 2024-12-04 21:53:30,341 - INFO - Macro F1-Score do OOF: 0.8648
 2024-12-04 21:53:31,714 - INFO - Treinamento concluï¿½do em 12.22 minutos.
+
+
+2024-12-05 23:26:16,467 - INFO - Início do treinamento do meta_model.
+2024-12-05 23:26:16,936 - INFO - Training Fold 1...
+2024-12-05 23:26:17,202 - INFO - Shapes - X_train_fold: (1309284, 35), X_valid_fold: (436428, 35)
+2024-12-05 23:26:51,068 - INFO - Início do treinamento do meta_model.
+2024-12-05 23:26:51,530 - INFO - Training Fold 1...
+2024-12-05 23:26:51,787 - INFO - Shapes - X_train_fold: (1309284, 35), X_valid_fold: (436428, 35)
+2024-12-05 23:29:48,882 - INFO - Relatório de métricas por classe no Fold 1:
+                 precision    recall  f1-score   support
+
+    2. NON-COMP       0.85      0.97      0.90     54553
+   4. TEMPORARY       0.72      0.69      0.71     54554
+    3. MED ONLY       0.78      0.59      0.67     54554
+5. PPD SCH LOSS       0.79      0.81      0.80     54553
+     6. PPD NSL       0.85      0.96      0.90     54553
+   1. CANCELLED       0.94      0.94      0.94     54554
+       8. DEATH       0.99      1.00      1.00     54554
+         7. PTD       1.00      1.00      1.00     54553
+
+       accuracy                           0.87    436428
+      macro avg       0.87      0.87      0.86    436428
+   weighted avg       0.87      0.87      0.86    436428
+
+2024-12-05 23:29:48,883 - INFO - Macro F1-Score do Fold 1: 0.8644
+2024-12-05 23:29:54,359 - INFO - Training Fold 2...
+2024-12-05 23:29:54,684 - INFO - Shapes - X_train_fold: (1309284, 35), X_valid_fold: (436428, 35)
+2024-12-05 23:32:51,433 - INFO - Relatório de métricas por classe no Fold 2:
+                 precision    recall  f1-score   support
+
+    2. NON-COMP       0.85      0.97      0.91     54553
+   4. TEMPORARY       0.72      0.69      0.71     54554
+    3. MED ONLY       0.77      0.59      0.67     54554
+5. PPD SCH LOSS       0.79      0.81      0.80     54553
+     6. PPD NSL       0.85      0.96      0.90     54553
+   1. CANCELLED       0.94      0.94      0.94     54554
+       8. DEATH       1.00      1.00      1.00     54554
+         7. PTD       1.00      1.00      1.00     54553
+
+       accuracy                           0.87    436428
+      macro avg       0.87      0.87      0.86    436428
+   weighted avg       0.87      0.87      0.86    436428
+
+2024-12-05 23:32:51,434 - INFO - Macro F1-Score do Fold 2: 0.8648
+2024-12-05 23:32:56,672 - INFO - Training Fold 3...
+2024-12-05 23:32:56,952 - INFO - Shapes - X_train_fold: (1309284, 35), X_valid_fold: (436428, 35)
+2024-12-05 23:36:04,959 - INFO - Relatório de métricas por classe no Fold 3:
+                 precision    recall  f1-score   support
+
+    2. NON-COMP       0.85      0.97      0.90     54554
+   4. TEMPORARY       0.72      0.69      0.70     54553
+    3. MED ONLY       0.77      0.59      0.67     54553
+5. PPD SCH LOSS       0.79      0.81      0.80     54554
+     6. PPD NSL       0.85      0.96      0.90     54554
+   1. CANCELLED       0.94      0.94      0.94     54553
+       8. DEATH       0.99      1.00      1.00     54553
+         7. PTD       1.00      1.00      1.00     54554
+
+       accuracy                           0.87    436428
+      macro avg       0.87      0.87      0.86    436428
+   weighted avg       0.87      0.87      0.86    436428
+
+2024-12-05 23:36:04,959 - INFO - Macro F1-Score do Fold 3: 0.8640
+2024-12-05 23:36:10,042 - INFO - Training Fold 4...
+2024-12-05 23:36:10,372 - INFO - Shapes - X_train_fold: (1309284, 35), X_valid_fold: (436428, 35)
+2024-12-05 23:39:06,689 - INFO - Relatório de métricas por classe no Fold 4:
+                 precision    recall  f1-score   support
+
+    2. NON-COMP       0.85      0.97      0.91     54554
+   4. TEMPORARY       0.72      0.69      0.70     54553
+    3. MED ONLY       0.78      0.59      0.67     54553
+5. PPD SCH LOSS       0.79      0.81      0.80     54554
+     6. PPD NSL       0.85      0.96      0.90     54554
+   1. CANCELLED       0.94      0.94      0.94     54553
+       8. DEATH       1.00      1.00      1.00     54553
+         7. PTD       1.00      1.00      1.00     54554
+
+       accuracy                           0.87    436428
+      macro avg       0.86      0.87      0.86    436428
+   weighted avg       0.86      0.87      0.86    436428
+
+2024-12-05 23:39:06,689 - INFO - Macro F1-Score do Fold 4: 0.8639
+2024-12-05 23:39:12,829 - INFO - Macro F1-Score do OOF: 0.8642
+2024-12-05 23:39:14,070 - INFO - Treinamento concluído em 12.38 minutos.
