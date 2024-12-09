@@ -6,6 +6,7 @@ __pycache__/
 data/
 predictions/
 models/
+folds/
 
 # C extensions
 *.so

@@ -14,3 +14,15 @@ def save_predictions_to_csv(model, test_data, claim_ids, class_mapping, output_p
 
     results.to_csv(output_path, index=False)
     print(f"Predições salvas em '{output_path}'.")
+
+def save_predictions_to_csv_ar(model, test_data, claim_ids, output_path):
+    predictions = model.predict(test_data)
+    predicted_labels = np.argmax(predictions, axis=1)
+
+    results = pd.DataFrame({
+        "Claim Identifier": claim_ids,
+        "Agreement Reached": predicted_labels
+    })
+
+    results.to_csv(output_path, index=False)
+    print(f"Predições salvas em '{output_path}'.")
