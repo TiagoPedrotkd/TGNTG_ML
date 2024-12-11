@@ -11,6 +11,8 @@ from sklearn.metrics import f1_score, classification_report
 from catboost import CatBoostClassifier, Pool
 from xgboost import XGBClassifier
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import GradientBoostingClassifier
+
 
 
 
@@ -205,5 +207,23 @@ def meta_model_lr(X_train_resampled, y_train_resampled, data_test, n_splits_n=3,
             "solver": "lbfgs",  # Default solver, good for multiclass
             "multi_class": "multinomial",  # Handles multiclass directly
             "max_iter": 1000,  # Ensure convergence for large datasets
+        }
+    )
+
+def meta_model_gb(X_train_resampled, y_train_resampled, data_test, n_splits_n=3, num_classes_n=8, verbose=True):
+    return meta_model_template(
+        X_train_resampled,
+        y_train_resampled,
+        data_test,
+        n_splits_n,
+        num_classes_n,
+        verbose,
+        model_function=GradientBoostingClassifier,
+        model_name="gb",
+        model_params={
+            "random_state": 42,  # Para reprodutibilidade
+            "n_estimators": 100,  # Número de árvores no ensemble
+            "learning_rate": 0.2,  # Taxa de aprendizado
+            "max_depth": 3,  # Profundidade máxima de cada árvore
         }
     )
