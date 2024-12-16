@@ -60,13 +60,6 @@ def meta_model_template(
     oof_predictions = np.zeros((X_train_resampled.shape[0], num_classes_n))
     test_predictions = np.zeros((data_test.shape[0], num_classes_n))
 
-    class_weights = compute_class_weight(
-        class_weight='balanced',
-        classes=np.unique(y_train_resampled),
-        y=y_train_resampled
-    )
-    class_weights = {i: weight for i, weight in enumerate(class_weights)}
-
     models = []
     f1_scores = []
 
@@ -131,26 +124,6 @@ def meta_model_rf(X_train_resampled, y_train_resampled, data_test, n_splits_n=3,
             "class_weight": "balanced",
             "random_state": 42,
             "n_jobs": 2  # Reduzido para minimizar uso de CPU
-        }
-    )
-
-
-def meta_model_catboost(X_train_resampled, y_train_resampled, data_test, n_splits_n=3, num_classes_n=8, verbose=True):
-    return meta_model_template(
-        X_train_resampled,
-        y_train_resampled,
-        data_test,
-        n_splits_n,
-        num_classes_n,
-        verbose,
-        model_function=CatBoostClassifier,
-        model_name="catboost",
-        model_params={
-            "iterations": 500,  # Reduzido
-            "learning_rate": 0.03,
-            "depth": 6,
-            "early_stopping_rounds": 25,
-            "verbose": False
         }
     )
 
