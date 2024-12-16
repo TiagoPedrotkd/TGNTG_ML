@@ -33,10 +33,17 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 ## How to Run
 1. Clone the repository;
 2. Navigate to the project directory;
-3. Install dependencies:
+3. Install python 3.9;
+4. Create a enviorement:
+  ```bash
+   python3.9 -m venv venv
+5. Activate enviorement:
+  ```bash
+  .\venv\Script\activate
+6. Install dependencies:
    ```bash
    pip install -r requirements.txt
-4. Open the Jupyter Notebook;
-5. Run the notebook to train and test the models;
+7. Open the Jupyter Notebook;
+8. Run the notebook to train and test the models;
  
 

@@ -200,3 +200,23 @@ def meta_model_gb(X_train_resampled, y_train_resampled, data_test, n_splits_n=3,
             "max_depth": 3,  # Profundidade máxima de cada árvore
         }
     )
+
+def meta_model_cb(X_train_resampled, y_train_resampled, data_test, n_splits_n=3, num_classes_n=8, verbose=True):
+    return meta_model_template(
+        X_train_resampled,
+        y_train_resampled,
+        data_test,
+        n_splits_n,
+        num_classes_n,
+        verbose,
+        model_function=CatBoostClassifier,
+        model_name="catboost",
+        model_params={
+            "iterations": 100,  # Reduzido para economizar recursos
+            "depth": 6,  # Profundidade padrão para evitar overfitting
+            "learning_rate": 0.3,  # Taxa de aprendizado padrão
+            "random_seed": 42,  # Para reprodutibilidade
+            "auto_class_weights": "Balanced",  # Balanceamento automático de classes
+            "verbose": verbose,  # Controle de log durante o treinamento
+        }
+    )
