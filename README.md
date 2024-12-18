@@ -1,4 +1,4 @@
-# Machine Learning Project 2024/2025: Deciding on Compensation Benefits
+# Machine Learning Project 2024/2025(Group 40): Deciding on Compensation Benefits
 
 This repository contains the code and documentation for the Machine Learning course project, aimed at creating a multiclass classification model to accurately predict the type of decision made by the New York Workers' Compensation Board (WCB) in workplace injury claims.
 
