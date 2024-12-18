@@ -33,10 +33,10 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 ## How to Run
 1. Clone the repository;
 2. Navigate to the project directory;
-3. Install python 3.9;
+3. Install python 3.11.0;
 4. Create a enviorement:
   ```bash
-   python3.9 -m venv venv
+   python3.11 -m venv venv
 5. Activate enviorement:
   ```bash
   .\venv\Script\activate
